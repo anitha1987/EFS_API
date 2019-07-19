@@ -1,0 +1,34 @@
+{% extends 'portfolio/base.html' %}
+{% load staticfiles %}
+
+
+{% block title %}About Eagle Financial Services {% endblock %}
+
+{% block content %}
+<style>
+
+    .aboutus {
+      position:static;
+            margin:0;
+        right: 0;
+        padding:0;
+      max-width: 100px;
+
+
+        height: 200px;
+
+        }
+
+
+</style>
+
+<div class="aboutus">
+    <img src="{% static "images/customer.jpg" %}" alt="customer"/>
+</div>
+
+
+    <h1>About Eagle Financial Services </h1>
+
+    <p>Eagle Financial Services provides financial services and advice to their customers on investing and growing their financial portfolio </p> <br/>
+    <p>Financial services are the economic services provided by the finance industry, which encompasses a broad range of businesses that manage money, including credit unions, banks, credit-card companies, insurance companies, accountancy companies, consumer-finance companies, stock brokerages, investment funds, individual managers and some government-sponsored enterprises. Financial services companies are present in all economically developed geographic locations and tend to cluster in local, national, regional and international financial centers such as London, New York City, and Tokyo.</p>
+ {% endblock %}
